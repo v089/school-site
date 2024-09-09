@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>МБОУ Школа №14</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+<body>
+
+    <header class="header">
+        <a href="#" class="logo">
+           Школа №14
+        </a>
+
+        <nav class="navbar">
+            <div id="close-navbar" class="fas fa-times"></div>
+            <a href="#">Главная</a>
+            <a href="about.html">Об организации</a>
+            <a href="courses.html">Кружки</a>
+            <a href="contact.html">Контакты</a>
+        </nav>
+
+        <div class="icons">
+            <div id="account-btn" class="fas fa-user"></div>
+            <div id="menu-btn" class="fas fa-bars"></div>
+        </div>
+    </header>
+
+    <div class="account-form">
+
+        <div id="close-form" class="fas fa-times"></div>
+
+        <div class="buttons">
+            <span class="btn active login-btn">Вход</span>
+            <span class="btn register-btn">Регистрация</span>
+        </div>
+        <form class="login-form active" action="">
+            <h3>Войти</h3>
+            <input type="email" placeholder="Введите эл. почту" class="box">
+            <input type="password" placeholder="Введите пароль" class="box">
+            <div class="flex">
+                <input type="checkbox" name="" id="remember-me">
+                <label for="remember-me">Запомнить</label>
+                <a href="#">Сбросить пароль</a>
+            </div>
+            <input type="submit" value="Войти" class="btn">
+        </form>
+
+        <form class="register-form" action="">
+            <h3>Регистрация</h3>
+            <input type="email" placeholder="Введите эл. почту" class="box">
+            <input type="password" placeholder="Введите пароль" class="box">
+            <input type="password" placeholder="Подтвердите пароль" class="box">
+            <input type="submit" value="Зарегистрироваться" class="btn">
+        </form>
+    </div> 
+
+    <section class="heading-link">
+
+        <h3>О нас</h3>
+        <p><a href="home.html">Главная</a> / О нас</p>
+
+    </section>
+
+    <section class="about">
+
+        <div class="image">
+            <img src="images/Study abroad.gif" alt="">
+        </div>
+
+        <div class="content">
+            <h3 class="about-title">Мы не просто школа</h3>
+            <p>
+                Школа №14 - это сообщество учеников, включающее родителей, сотрудников школы и самих учеников. 
+                Вместе мы стремимся создать академически строгую, культурно-ориентированную и инклюзивную среду обучения. 
+                Мы достигнем совершенства в образовательной сфере и изменим историю!
+            </p>
+
+            <div class="icons-container">
+                <div class="icons">
+                    <img src="images/about-icon-1.png" alt="">
+                    <h3>540+</h3>
+                    <span>Выпускников получают высшее образование</span>
+                </div>
+
+                <div class="icons">
+                    <img src="images/about-icon-2.png" alt="">
+                    <h3>11+</h3>
+                    <span>Наград за победы в мероприятиях</span>
+                </div>
+          
+                <div class="icons">
+                    <img src="images/about-icon-3.png" alt="">
+                    <h3>1200+</h3>
+                    <span>Учеников ежегодно</span>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="teachers">
+        <h1 class="heading">Наши учителя</h1>
+
+        <div class="swiper teachers-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="images/teacher-2.png" alt="">
+                        <div class="share">
+                            <a href="#" class="fab fa-facebook-f"></a>
+                            <a href="#" class="fab fa-linkedin"></a>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <h3>Михаил Колосов</h3>
+                        <span>Учитель информатики</span>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="images/teacher-3.png" alt="">
+                        <div class="share">
+                            <a href="#" class="fab fa-facebook-f"></a>
+                            <a href="#" class="fab fa-linkedin"></a>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <h3>Мария Курченова</h3>
+                        <span>Учитель математики</span>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="images/teacher-4.png" alt="">
+                        <div class="share">
+                            <a href="#" class="fab fa-facebook-f"></a>
+                            <a href="#" class="fab fa-linkedin"></a>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <h3>Анастасия Горбарюк</h3>
+                        <span>Учитель английского языка</span>
+                    </div>
+                </div>
+                
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="reviews">
+        <h1 class="heading">Отзывы учеников</h1>
+
+        <div class="swiper reviews-slider">
+
+            <div class="swiper-wrapper">
+
+
+                <div class="swiper-slide slide">
+                    <p>
+                        Я окончил школу №14 с красным аттестатом и теперь поступаю в лучший ВУЗ в городе.
+                    </p>
+                    <img src="images/pic-3.jpeg" alt="">
+                    <h3>Сергей Нагаев</h3>
+
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+
+                </div>
+
+                <div class="swiper-slide slide">
+                    <p>
+                        Я окончил школу №14 с красным аттестатом и теперь поступаю в лучший ВУЗ в городе.
+                    </p>
+                    <img src="images/pic-4.png" alt="">
+                    <h3>Александра Чекушина</h3>
+
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+
+                </div>
+
+                <div class="swiper-slide slide">
+                    <p>
+                        Я окончил школу №14 с красным аттестатом и теперь поступаю в лучший ВУЗ в городе. 
+                    </p>
+                    <img src="images/pic-5.jpeg" alt="">
+                    <h3>Даниил Богодухов</h3>
+
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+
+                </div>
+
+                </div>
+
+            </div> 
+
+        </div>
+
+    </section>
+
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>МБОУ СОШ №14</h3>
+                <p>Каларская 30. Почтовый индекс: 672015 Россия, Забайкальский край, Чита</p>
+                <div class="share">
+                    <a href="#" class="fab fa-whatsapp"></a>
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <h3>Быстрые ссылки</h3>
+                <a href="home.html" class="link">Главная</a>
+                <a href="about.html" class="link">О нас</a>
+                <a href="courses.html" class="link">Кружки</a>
+                <a href="contact.html" class="link">Контакты</a>
+            </div>
+
+            <div class="box">
+                <h3>Полезные ссылки</h3>
+                <a href="#" class="link">Тех. Поддержка</a>
+                <a href="#" class="link">FAQs</a>
+                <a href="#" class="link">Обратная связь</a>
+                <a href="#" class="link">Политика конфиденциальности</a>
+            </div>
+
+            <div class="box">
+                <h3>Уведомления</h3>
+                <p>Подпишитесь на уведомления</p>
+                <form action="">
+                    <input type="email" name="" placeholder="Введите эл. почту" id="" class="email">
+                    <input type="submit" value="Подписаться" class="btn">
+                </form>
+            </div>
+        </div>
+
+        <div class="credit">Все права защищены</div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+   <script src="js/script.js"></script>
+</body>
+</html>

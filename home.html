@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>МБОУ Школа №14</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+<body>
+
+    <header class="header">
+        <a href="#" class="logo">
+           Школа №14
+        </a>
+
+        <nav class="navbar">
+            <div id="close-navbar" class="fas fa-times"></div>
+            <a href="#">Главная</a>
+            <a href="about.html">Об организации</a>
+            <a href="courses.html">Кружки</a>
+            <a href="contact.html">Контакты</a>
+        </nav>
+
+        <div class="icons">
+            <div id="account-btn" class="fas fa-user"></div>
+            <div id="menu-btn" class="fas fa-bars"></div>
+        </div>
+    </header>
+
+
+    <div class="account-form">
+
+        <div id="close-form" class="fas fa-times"></div>
+
+        <div class="buttons">
+            <span class="btn active login-btn">Вход</span>
+            <span class="btn register-btn">Регистрация</span>
+        </div>
+        <form class="login-form active" action="">
+            <h3>Войти</h3>
+            <input type="email" placeholder="Введите эл. почту" class="box">
+            <input type="password" placeholder="Введите пароль" class="box">
+            <div class="flex">
+                <input type="checkbox" name="" id="remember-me">
+                <label for="remember-me">Запомнить</label>
+                <a href="#">Сбросить пароль</a>
+            </div>
+            <input type="submit" value="Войти" class="btn">
+        </form>
+
+        <form class="register-form" action="">
+            <h3>Регистрация</h3>
+            <input type="email" placeholder="Введите эл. почту" class="box">
+            <input type="password" placeholder="Введите пароль" class="box">
+            <input type="password" placeholder="Подтвердите пароль" class="box">
+            <input type="submit" value="Зарегистрироваться" class="btn">
+        </form>
+    </div> 
+
+    <section class="home">
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+
+                <section class="swiper-slide" style="background: url(images/home-slide-1.jpg) no-repeat;">
+                    <div class="content">
+                        <h3>Революцеонный способ обучения.</h3>
+                        <p>
+                            Здесь, в школе №14, мы сосредоточены на создании нового способа обучения для наших учеников. 
+                            Мы поддерживаем подход общественных школ, который организует и максимизирует ресурсы школьных
+                            и общественных партнерств, чтобы гарантировать процветание каждого ученика и поддерживать 
+                            успех учеников в соответствии со школьными приоритетами. 
+                        </p>
+                        <a href="#" class="btn">Начать</a>
+                    </div>            
+                </section>
+
+                <section class="swiper-slide" style="background: url(images/home-slide-2.jpg) no-repeat;">
+                    <div class="content">
+                        <h3>Семья в обучении.</h3>
+                        <p>Администрация и персонал стремятся создать благоприятную учебную
+                            среду, в которой все учащиеся смогут добиться успеха и полностью раскрыть свой потенциал. Каждый участник учебного процесса
+                            участвует в циклах непрерывного обучения и совершенствования, которые включают в себя установление
+                            высоких ожиданий, постановку целей, планирование и размышление действий.
+                        </p>
+                        <a href="#" class="btn">Начать</a>
+                    </div>            
+                </section>
+
+                <section class="swiper-slide" style="background: url(images/home-slide-3.jpg) no-repeat;">
+                    <div class="content">
+                        <h3>Культура и достижения</h3>
+                        <p>Благодаря открытиям, исследованиям, инновациям и творческому самовыражению, интеграции искусств
+                            и возможностям повышения уровня образования после школы, учащиеся получают богатые и расширенные возможности для обучения.               
+                            при этом создается позитивная школьная культура, в которой каждый ученик чувствует, что его ценят и уважают.
+                        </p>
+                        <a href="#" class="btn">Начать</a>
+                    </div>            
+                </section>
+
+            </div>
+
+            <div class="swiper-pagination"></div>
+
+        </div>
+    </section>
+
+    <section class="subjects">
+        <h1 class="heading">Популярные новости</h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="images/subject-icon-1.png" alt="">
+                <h3>Искусство</h3>
+                <p>14 статей</p>
+            </div>
+
+            <div class="box">
+                <img src="images/subject-icon-2.png" alt="">
+                <h3>Математика</h3>
+                <p>22 статьи</p>
+            </div>
+
+            <div class="box">
+                <img src="images/subject-icon-3.png" alt="">
+                <h3>Учителя</h3>
+                <p>30 статей</p>
+            </div>
+
+            <div class="box">
+                <img src="images/subject-icon-4.png" alt="">
+                <h3>ИТ</h3>
+                <p>25 статей</p>
+            </div>
+
+            <div class="box">
+                <img src="images/subject-icon-5.png" alt="">
+                <h3>Химия</h3>
+                <p>20 статей</p>
+            </div>
+
+            <div class="box">
+                <img src="images/subject-icon-6.png" alt="">
+                <h3>Технологии</h3>
+                <p>30 статей</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="home-courses">
+
+        <h1 class="heading">Популярные кружки</h1>
+
+        <div class="swiper home-course-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide slide">
+
+                    <div class="image">
+                        <img src="images/course-1-1.svg" alt="">
+                        <h3>Медицинский кружок</h3>
+                    </div>
+
+                    <div class="content">
+                        <h3>Медицинский кружок</h3>
+                        <p>Везде, где присутствует искусство медицины, присутствует и любовь к человечеству. </p>
+                        <a href="#" class="btn">Читать дальше</a>
+                    </div>
+                    
+                </div>
+
+                <div class="swiper-slide slide">
+
+                    <div class="image">
+                        <img src="images/course-1-2.svg" alt="">
+                        <h3>IT кружок</h3>
+                    </div>
+
+                    <div class="content">
+                        <h3>IT кружок</h3>
+                        <p>Изучение и использование новых технологий. </p>
+                        <a href="#" class="btn">Читать дальше</a>
+                    </div>
+                    
+                </div>
+
+                <div class="swiper-slide slide">
+
+                    <div class="image">
+                        <img src="images/course-1-4.svg" alt="">
+                        <h3>Кулинарный кружок</h3>
+                    </div>
+
+                    <div class="content">
+                        <h3>Кулинарный кружок</h3>
+                        <p>Обучние детей кулинарному исскуству. </p>
+                        <a href="#" class="btn">Читать дальше</a>
+                    </div>
+                    
+                </div>
+
+                <div class="swiper-slide slide">
+
+                    <div class="image">
+                        <img src="images/course-1-5.svg" alt="">
+                        <h3>Бизнес кружок</h3>
+                    </div>
+
+                    <div class="content">
+                        <h3>Бизнес кружок</h3>
+                        <p>Возможности для бизнеса подобны автобусам, всегда есть еще один подходящий. </p>
+                        <a href="#" class="btn">Читать дальше</a>
+                    </div>
+                    
+                </div>
+
+                <div class="swiper-slide slide">
+
+                    <div class="image">
+                        <img src="images/course-1-6.svg" alt="">
+                        <h3>Робототехника</h3>
+                    </div>
+
+                    <div class="content">
+                        <h3>Робототехника</h3>
+                        <p>Зачем играть спортивными мячами, если можно поиграть с роботами? </p>
+                        <a href="#" class="btn">Читать дальше</a>
+                    </div>
+                    
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>МБОУ СОШ №14</h3>
+                <p>Каларская 30. Почтовый индекс: 672015 Россия, Забайкальский край, Чита</p>
+                <div class="share">
+                    <a href="#" class="fab fa-whatsapp"></a>
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <h3>Быстрые ссылки</h3>
+                <a href="home.html" class="link">Главная</a>
+                <a href="about.html" class="link">О нас</a>
+                <a href="courses.html" class="link">Кружки</a>
+                <a href="contact.html" class="link">Контакты</a>
+            </div>
+
+            <div class="box">
+                <h3>Полезные ссылки</h3>
+                <a href="#" class="link">Тех. Поддержка</a>
+                <a href="#" class="link">FAQs</a>
+                <a href="#" class="link">Обратная связь</a>
+                <a href="#" class="link">Политика конфиденциальности</a>
+            </div>
+
+            <div class="box">
+                <h3>Уведомления</h3>
+                <p>Подпишитесь на уведомления</p>
+                <form action="">
+                    <input type="email" name="" placeholder="Введите эл. почту" id="" class="email">
+                    <input type="submit" value="Подписаться" class="btn">
+                </form>
+            </div>
+        </div>
+
+        <div class="credit">Все права защищены</div>
+    </section>
+ 
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+   <script src="js/script.js"></script>
+</body>
+</html>
